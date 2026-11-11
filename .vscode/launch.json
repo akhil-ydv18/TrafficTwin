@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TrafficTwin: Run Calibration Benchmark (Python)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/calibrate.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "TrafficTwin: Start Visualizer Web Server",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/run.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
